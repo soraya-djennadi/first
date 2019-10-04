@@ -1,4 +1,5 @@
-public function research($motClef) {
+<?php
+  public function research($motClef) {
         global $bdd;
         $sql = "SELECT * FROM `fiche` WHERE 1";
         $param = [];
